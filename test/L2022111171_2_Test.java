@@ -2,7 +2,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class test {
+public class L2022111171_2_Test {
 
     @Test
     public void testSolution2() {
@@ -17,9 +17,9 @@ public class test {
         //无重复字符
         assertEquals("abcd", sol.removeDuplicateLetters("abcd"));
         //包含重复字符且保持字符序最小
-        assertEquals("ecbacba", sol.removeDuplicateLetters("ecbacba"));
-        assertEquals("bbcaac", sol.removeDuplicateLetters("bac"));
-        assertEquals("aabbcc", sol.removeDuplicateLetters("abc"));
+        assertEquals("eacb", sol.removeDuplicateLetters("ecbacba"));
+        assertEquals("bac", sol.removeDuplicateLetters("bbcaac"));
+        assertEquals("abc", sol.removeDuplicateLetters("aabbcc"));
     }
 
 }
