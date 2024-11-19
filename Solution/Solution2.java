@@ -22,6 +22,7 @@ class Solution2 {
         int[] num = new int[26];
         for (int i = 0; i < s.length(); i++) {
             num[s.charAt(i) - 'a']++;
+            System.out.println("@@@");
         }
 
         StringBuffer sb = new StringBuffer();
